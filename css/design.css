@@ -1,0 +1,156 @@
+/*
+Color Palette:
+  white = #ebecf1;
+  green = #206a5d;
+  blue = #1f4068;
+  black = #1b1c25;
+  -
+  purple = #aa26da;
+  dark-blue = #1d1b38;
+*/
+
+/* General */
+
+a{
+  text-decoration: none;
+  color: #ebecf1;
+}
+
+div{
+  color: #ebecf1;
+  margin: 5px;
+}
+body{
+  background-color: #1b1c25;
+  overflow-x: hidden;
+}
+span{
+  font-family: 'Playfair Display', serif;
+  font-size: 110%;
+}
+.backgroundimg{
+  width: 100vmax;
+  height: 150px;
+}
+h3 {
+  font-size: 1.2rem;
+}
+
+/* Header */
+
+.first{
+  margin-bottom: 40px;
+}
+.icon{
+  width: 110%;
+  height: 110%;
+  margin: 2px;
+}
+.header{
+  position: relative;
+  margin: 1%;
+}
+.icons{
+  display: inline-block;
+  width: 45px;
+  height: 20px;
+}
+.top{
+  position: fixed;
+  left: 60vw;
+  display: inline-block;
+  height: auto;
+  width: 33vw;
+  z-index: 1;
+}
+.hr-header{
+  border-style: none;
+  border-top-style: solid;
+  border-color: #206a5d;
+  border-width: 1px;
+  width: 40%;
+  margin-top: 0;
+}
+video{
+  margin-top: -10px;
+  width: 100vmax;
+}
+
+/* Who am i */
+
+.second{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+img.quem_sou{
+  width: 300px;
+  height: 300px;
+}
+div.quem_sou{
+  background-color: #1d1b38;
+  border: solid 3px;
+  border-color: #1f4068;
+}
+
+/* Achievement */
+
+.third{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+img.cpm{
+  width: 200px;
+}
+img.ufpe{
+  width: 200px;
+}
+img.solfejando{
+  width: 200px;
+}
+.cpm{
+  text-align: center;
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+.ufpe{
+  text-align: center;
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+.solfejando{
+  text-align: center;
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+p.achievement {
+  font-size: 1rem;
+}
+
+/* Footer */
+
+.hr-footer {
+  border-style: none;
+  border-top-style: solid;
+  border-color: #1f4068;
+  border-width: 1px;
+  width: 10%;
+  margin-bottom: 0;
+}
+.footer{
+  margin: 0;
+  text-align: center;
+  color: #aa26da;
+}
+p.footer{
+  margin: 0;
+  height: auto;
+  font-family: monospace;
+  font-style: normal;
+  font-size: 16px;
+}
+.coder{
+  color: #aa26da;
+}
