@@ -75,6 +75,11 @@ video{
   margin-top: -10px;
   width: 100vmax;
 }
+@media (max-width: 400px){
+  .video{
+    width: 356px;
+  }
+}
 
 /* Who am i */
 
